@@ -1,0 +1,30 @@
+/* Step 8: Create CSS in booking/static/css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    /*margin: 20px;*/
+}
+
+h1 {
+    color: green;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+a{
+    color: #cccccc;
+}
+button{
+    color: white;
+
+}
+ /*About Section *!*/
+
+/* about section */
+

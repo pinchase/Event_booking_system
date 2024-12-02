@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}About Us - Event Booking Platform{% endblock %}
+
+{% block content %}
+    
+      {% block styles %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+{% endblock %}
+    
+<section class="about-section">
+    <h1>About Us</h1>
+    <p>Welcome to <strong>Event Booking Platform</strong>, your go-to solution for hassle-free event management and booking.</p>
+    
+    <h2>Our Mission</h2>
+    <p>Our mission is to revolutionize how events are planned and booked, offering seamless services for both organizers and attendees.</p>
+    <ul>
+        <li>Provide a user-friendly platform for event booking.</li>
+        <li>Streamline event management processes for organizers.</li>
+        <li>Ensure secure and reliable bookings for attendees.</li>
+    </ul>
+
+    <h2>What We Offer</h2>
+    <p>At <strong>Event Booking Platform</strong>, we are committed to:</p>
+    <ul>
+        <li>Delivering an intuitive interface for effortless navigation.</li>
+        <li>Ensuring secure payment methods and data protection.</li>
+        <li>Offering 24/7 customer support to address your needs.</li>
+    </ul>
+
+    <h2>Our Vision</h2>
+    <p>To become the leading event booking platform by continually improving and adapting to the evolving needs of our users.</p>
+
+    <h2>Contact Us</h2>
+    <p>Have questions or feedback? Get in touch:</p>
+    <ul>
+        <li>Email: <a href="mailto:ideas8613@gmail.com">ideas8613@gmail.com</a></li>
+        <li>Phone: +123 456 7890</li>
+        <li>Follow us on <a href="#">Facebook</a>, <a href="#">Twitter</a>, and <a href="#">Instagram</a>.</li>
+    </ul>
+</section>
+{% endblock %}
